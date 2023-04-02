@@ -1,0 +1,74 @@
+.bging{
+    background-image:url("../GettyImages-498997676-5b9e338f46e0fb0024728b7c.jpg");
+    background-size:cover;
+    background-attachment:fixed;
+    width:100%;
+    height: 950px;
+}
+.headerset{
+    padding:300px;
+    box-sizing:border-box;
+    margin:top 350px;
+}
+.headerset h1{
+    font-size:70px;
+    font-weight:bolder;
+    font-family:cursive;
+}
+.headerset h6{
+    font-size:24px;
+    padding:10px;
+}
+.headerset h1:hover{
+    font-size:70px;
+    font-weight:bolder;
+    font-family:curisve;
+    transition:0.7sease;
+}
+.headerset h6:hover{
+    font-size:24px;
+    padding:10px;
+    font-family:cursive;
+    transition:0.7sease;
+}
+.button{
+    font-size:24px;
+    font-family:cursive;
+    transition:0.7sease; 
+}
+@media only screen and(max-width:800px){
+    .headerset h1{ font-size:30px;
+                   font-weight:bold;
+                   font-family:curisve;
+                   transition:0.7sease;
+    }
+}
+.posts{
+    color:blue;
+    margin-top:300px;
+    font-size:56px;
+}
+.navbar-nav li a{
+    transition:0.7s ease;
+    margin:18px;
+}
+.navbar-nav li a:hover{
+    background-color:black;
+}
+section{
+    padding:20px;
+    margin:20px;
+}
+img{
+    max-width:300px;
+    height: 300px;;
+}
+img:hover{
+    transition:scale(1.9);
+    cursor:pointer;
+}
+.card-text{
+    text-transform:capitalize;
+    text-decoration:none;
+    font-style:bold;
+}
